@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <style>
+        body {
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+        }
+
+        .button_custom {
+            background: #3D94F6;
+            background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            color: #FFFFFF;
+            font-family: sans-serif;
+            font-size: 51px;
+            font-weight: 500;
+            padding: 24px;
+            -webkit-box-shadow: 1px 1px 20px 0 #000000;
+            -moz-box-shadow: 1px 1px 20px 0 #000000;
+            box-shadow: 1px 1px 20px 0 #000000;
+            text-shadow: -6px 0 8px #000000;
+            border: solid #337FED 0;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .button_custom:hover {
+            border: solid #000000 1px;
+            background: #1E62D0;
+            background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 2%;
+            font-size: 1rem;
+            background-color: #373a40;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            color: #132743;
+            text-align: center;
+            font-size: 3.5rem;
+        }
+        input{
+            padding: .9%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>BMI CALCULATOR</h1>
+    <form action="/" method="post">
+        <input type="text" name="weight" placeholder="Enter Weight (kg)"> <br> <br>
+        <input type="text" name="height" placeholder="Enter Height (m)"> <br> <br>
+        <button type="submit" class="button_custom" name="submit">Calculate</button>
+    </form>
+    <footer style="color: white;">
+        <span>&copy</span> <em>2020</em> Design & Developed by
+        <a href="https://www.linkedin.com/in/tushar-nayan-8a384a167" target="_blank">
+            <strong style="color: white;">Tushar Nayan</strong>
+        </a>
+        . All right reserved.
+    </footer>
+</body>
+
+</html>
